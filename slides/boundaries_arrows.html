@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Clean Architecture: Boundaries & Arrows</title>
+
+		<link rel="stylesheet" href="../lib/reveal.js-3.8.0/css/reset.css">
+		<link rel="stylesheet" href="../lib/reveal.js-3.8.0/css/reveal.css">
+		<link rel="stylesheet" href="../lib/reveal.js-3.8.0/css/theme/black.css">
+		<link rel="stylesheet" href="../lib/reveal.js-3.8.0/lib/css/monokai.css">
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ?
+				'../lib/reveal.js-3.8.0/css/print/pdf.css' :
+				'../lib/reveal.js-3.8.0/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>Slide 1</section>
+				<section>Slide 2</section>
+			</div>
+		</div>
+
+		<script src="../lib/reveal.js-3.8.0/js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: '../lib/reveal.js-3.8.0/plugin/markdown/marked.js' },
+					{ src: '../lib/reveal.js-3.8.0/plugin/markdown/markdown.js' },
+					{ src: '../lib/reveal.js-3.8.0/plugin/notes/notes.js', async: true },
+					{ src: '../lib/reveal.js-3.8.0/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
