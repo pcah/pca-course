@@ -4,4 +4,4 @@ This repo is a workspace for materials for our talks about The Clean Architectur
 
 ### Slides
 
-- TODO
+- [test slides](slides/.prototype.html)
